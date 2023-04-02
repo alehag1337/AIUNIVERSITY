@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css"></head>
+<header>
+    <a class="logo">AI University</a>
+    <nav class="menu">
+      <ul class="menu-items">
+        <div class="navbar">
+            <a href="#home">Vad är AI?</a>
+            <a href="Artiklar.html">Alla artiklar</a>
+            <div class="dropdown">
+              <button class="dropbtn">Om oss<i class="fa fa-caret-down"></i></button>
+              <div class="dropdown-content">
+                <a href="#">Maskininlärning</a>
+                <a href="#">Chat GPT</a>
+                <a href="#">AGI</a>
+                <a href="#">AI konst</a>
+                <a href="#">Jobb inom AI</a>
+                <a href="#">Sam Altman</a>
+              </div>
+            </div>
+        </div>
+        <li class="menu-item button"><a href="#">Kurser Inom AI</a></li>
+        <button class="button--flat menu-hidden"><i class="fas fa-bars"></i></button>
+      </ul>
+    </nav>
+  </header>
+  <article>
+    <figure class="banner-img">
+      <img src="https://www.weetechsolution.com/wp-content/uploads/2022/12/OpenAI-ChatGPT-1.png" alt="Art Wallpaper">
+      <figcaption>AI genererad konst</figcaption>
+    </figure>
+    <div class="article-content">
+      <main class="article-body">
+        <h1>Vad är ChatGPT?</h1>
+        <section>
+          <p>ChatGPT är en chattbott eller virtuell assistent skapad av Open AI som släpptes första gången 30 november 2022. Open AI är ett företag i San Francisco med Sam Altman som VD för bolaget. </p>
+          <p>Chat GPT är en del av GPT familjen och släpptes först genom GPT-3 versionen. Sedan dess har modellen uppdaterats till GPT 4 som just nu finns tillängligt om man betalar för pluss funktionen.</p>
+          <p>Vad är GPT egentligen och vad betyder det? GPT står för Generative Pre-Trained Transformer och är en artificiell intelligensmodell som är tränad på en stor mängd textdata. GPT är utformad och tränad för att kunna förutsäga nästa ord eller fras i en sekvens av text baserat på de tidigare orden i sekvensen. Väldigt enkelt förklarat ska GPT kunna förutsäga nästa sekvens i en mening till exempel.</p>
+          <p>Det som skiljer GPT-modeller från andra AI modeller är att den tränas på en stor mängd text data som inte är superviserat (supervised). Detta betyder att ingen människa är inblandad i träningen av modellen.        </p>         
+          <p></p>
+          <p></p>
+          <div class="sam">
+            <h3 >Sammanfattning</h3>
+          <p>ChatGPT är en artificiell intelligensmodell baserad på GPT-arkitekturen, som är tränad på en stor mängd textdata för att kunna svara på frågor och generera naturligt språk i en konversationsliknande interaktion. Modellen kan användas för att skapa chatbots och virtuella assistenter som kan hjälpa användare med olika uppgifter och ge personliga och specifika svar på användarens frågor. ChatGPT är utvecklad av OpenAI och har blivit populär för sin förmåga att generera högkvalitativt och trovärdigt språk som kan efterlikna mänskliga konversationer.</p>
+          </div>
+          <br>        
+          <figure class="banner-img">
+            <img src="https://images-prod.dazeddigital.com/858/azure/dazed-prod/1170/3/1173623.jpg" alt="Art Wallpaper">
+            <figcaption>AI genererad konst</figcaption>
+          </figure>    
+        </section>
+        <section>
+          <h2>Framgångssagan ChatGPT</h2>
+          <p>Bara två månader efter Open AI släppte ChatGPT nådde chattboten 100 miljoner månatliga användare i Januari, enligt data från statistikbolaget Similarweb. Enligt en studie från den Schweiziska banken UBS har de aldrig sett någon liknande tillväxt efter att studerat internet i 20 år. För kontext tog det Instagram två och ett halvt år att nå 100 miljoner användare jämfört med två månader för ChatGPT.</p>
+          <p>Den otroliga tillväxten för ChatGPT visar både användarbarheten av verktygen och den otroliga nyfikenheten kring människoliknande maskiner.</p>
+         <br>
+          <h3>Vad kan ChatGPT göra?</h3>
+          <p>ChatGPT kan skriva långa noveller, svara på komplexa frågor inom olika områden eller sammanfatta en bok du just har läst. Möjligheterna med ChatGPT är stora och verktyget blir bara bättre med tiden då nya versioner släpps.</p>
+        <br>
+          <h3>Vad är nackdelarna med ChatGPT?</h3>
+        <p>Såklart kan ChatGPT ännu inte göra allt. Ibland sker det misstag med chattbotten som till exempel stavfel, eller missinformation kring ett ämne. Däremot har många fel rättats till med den nya versionen GPT4 och många är optimistiska att felen kommer att bli mindre över tid.</p>
+        <br>
+        <h3>Kan Bing konkurrera ut Google?</h3>
+        <p>GPT modeller har många olika användningsområden som till exempel översättning, svar på frågor, programmeringshjälp med mera. Fördelen med ChatGPT och liknande produkter är att du får svar på dina frågor snabbt och naturligt vilket många tror kan vara ett hot mot sökmotorsjätten Google. </p>
+      <br>
+        <div class="sam">
+            <h3 >Sammanfattning</h3>
+          <p>Open AI:s ChatGPT har tagit världen med storm sedan den släpptes och slagit alla rekord i tillväxt på internet. ChatGPT kan svara på många komplexa frågor men är inte felfri utan gör misstag ibland. Däremot blir modellen bara bättre med tiden och många expterter tror till och med att det kan konkurrera ut sökjätten Google.</p>
+          </div>
+          <figure>
+            <img src="https://fchiaramonte.com/wp-content/uploads/2023/02/ai-art-1024x683.png">
+            <figcaption>AI genererad konst</figcaption>
+          </figure>
+        </section>
+        <section>
+          <h2>Vad är bra med Artificiell Intelligens (AI)?</h2>
+          <p>Även om AI kan verka skrämmande ibland, finns det otroligt många fördelar med AI. Eftersom artificiell intelligens kan utföra många komplexa uppgifter kan AI automatisera många monotona jobb.</p>
+          <h3>Vad som är bra med AI:</h3>
+          <ul>
+            <li>
+              <span class="underline--magical">Effektivitet och produktivitet:</span> AI kan automatisera repetitiva och tidskrävande uppgifter, vilket frigör tid för människor att fokusera på mer komplexa och kreativa arbetsuppgifter. Detta kan leda till ökad effektivitet och produktivitet inom olika branscher och sektorer.
+            </li>
+            <li>
+              <span class="underline--magical">Bättre beslutsfattande:</span> Genom att använda AI för att analysera stora mängder data och hitta mönster och samband kan beslutsfattare få bättre insikter och ta mer välgrundade beslut. Detta kan leda till förbättrad prestanda och konkurrenskraft för organisationer.
+     
+            </li>
+            <li>
+              <span class="underline--magical">Förbättrad noggrannhet och kvalitet:</span> AI kan utföra uppgifter utan att göra misstag och med en hög grad av konsekvens. Detta kan förbättra kvaliteten och noggrannheten i produktions- och tjänsteprocesser, vilket leder till minskad felaktighet och högre kundnöjdhet.
+     
+            </li>
+            <li>
+              <span class="underline--magical">Lösa komplexa problem:</span> AI kan hjälpa till att lösa komplexa problem genom att utforska stora datamängder och identifiera mönster och samband som människor inte skulle ha upptäckt. Detta kan leda till nya insikter och lösningar på problem som tidigare ansågs omöjliga att lösa.
+            </li>
+            <li>
+                <span class="underline--magical">Potentiell förbättrad säkerhet:</span> AI kan användas för att övervaka och upptäcka hot och faror i realtid, vilket kan förbättra säkerheten i olika miljöer och situationer. Detta kan inkludera allt från övervakning av trafikflöden och detektion av cyberattacker till upptäckt av potentiella faror på arbetsplatser och inom hälso- och sjukvården.
+       
+              </li>
+          </ul>  
+          <div class="sam">
+            <h3 >Sammanfattning</h3>
+          <p>Artificiell intelligens (AI) har fördelar som ökad effektivitet, förbättrat beslutsfattande och bättre kvalitet genom automatisering av uppgifter, analys av stora datamängder och förmågan att lösa komplexa problem. Dessutom kan AI förbättra säkerheten genom övervakning och upptäckt av hot och faror.</p>
+          </div>
+          <figure>
+            <img src="https://www.market-prospects.com//storage/images/671_1200x675.jpg" alt="Art Wallpaper">
+            <figcaption>Market Prospects</figcaption>
+          </figure>
+        </section>
+        <section>
+            <h2>Hur ser framtiden ut för Artificiell Intelligens (AI)?</h2>
+          <p>Det är såklart inte möjligt att förutspå framtiden, men med högst sannolikhet kommer Artificiell Intelligens förändra hur företag och organisationer fungerar i framtiden. Det finns många tekniker och tillämpningar som kan utvecklas inom områden som medicin, energi, finans och transport genom AI.</p>
+        <p>Artificiell intelligens (AI) är en teknologi som kan förändra sättet vi lever, arbetar och interagerar med våra medmänniskor. AI har redan revolutionerat många branscher, från sjukvård till transport och finans och det ser ut att fortsätta. Med en exponentiell ökning av data, samt beräkningskraft har AI potentialen att transformera samhället inom många olika branscher.</p>
+       <p> Det vi ser inom AI:s framtid är att AI påverkar arbetsmarknaden genom att automatisera många olika typer av jobb. Detta kan absolut leda till ett ökat krav på utbildning och utveckling av nya färdigheter.</p>
+        <p>Det finns idag två sidor av myntet. Många menar på att AI kommer ta jobb och därmed sätta många människor arbetslösa. Andra är mer optimistiska och menar att AI kommer agera som ett verktyg för att förbättra vår arbetsmiljö och ta bättre beslut.</p>
+        <p>En fördel som Artificiell Intelligens har är att beslut kan tas med hjälp av stora mängder data. AI tar inte heller beslut baserat på känslor vilket kan låta hårt men kan absolut vara en fördel.        </p>
+        <p>Robotik tillsammans med AI kommer möjliggöra att robotar kan arbeta i möljer som är riskfyllda. Detta är otroligt positivt då vi kommer se mindre arbetsolyckor och arbetsolyckor med dödlig utgång.</p>
+        <p>Stora företag och organisationer jobbar dagligen för att AI ska utvecklas. AI blir bättre varje dag som går genom mer träning på data. Många experter tror AI kommer att fortsätta växa mycket och att alla jobb kommer ta hjälp av AI i framtiden.</p>
+        <div class="sam">
+            <h3 >Sammanfattning</h3>
+          <p>AI har potentialen att transformera samhället inom många branscher, från sjukvård till transport och finans. Det finns en oro för att automatiseringen som AI möjliggör kan leda till en ökad arbetslöshet, men det finns också en optimistisk syn som ser AI som ett verktyg för att förbättra vår arbetsmiljö och ta bättre beslut. Robotik och AI kan också möjliggöra arbete i riskfyllda miljöer och minska antalet arbetsolyckor med dödlig utgång. Stora företag och organisationer satsar på att utveckla AI som blir bättre för varje dag som går.</p>
+          </div>
+        <br>
+        <h3>Framtidsbranscher inom AI:</h3>
+        <ul>
+          <li>
+            <span class="underline--magical">Hälso- och sjukvård:</span>  Inom sjukvård kan AI analysera stor mängder patientdata för att analysera och se riskfaktorer för sjukdomar. Det kan också handla om att ge exakta diagnoser och föreslå behandlingsalternativ.
+          </li>
+          <li>
+            <span class="underline--magical">Tillverkning:</span> AI kan användas för att automatisera tillverkningsprocesser, förbättra kvalitetskontroller och optimera produktflöden. Genom AI baserade robotar kommer arbetsskador/olyckor att minska då robotar kan jobba i de flesta miljöer.
+   
+          </li>
+          <li>
+            <span class="underline--magical">Finans:</span> AI kan hjälpa till att bedöma kreditrisker, hantera portföljer, upptäcka bedrägerier eller optimera investeringsbeslut efter dina behov.
+   
+          </li>
+          <li>
+            <span class="underline--magical">Service:</span> Likt Chat-GPT (En chatbot) kommer AI kunna svara relevant till frågor som vi människor har genom att träna på data. AI kommer att kunna arbeta inom kundtjänst och besvara frågor likt som en människa skulle göra.
+          </li>
+          <li>
+              <span class="underline--magical">Utbildning:</span>  Inom utbildning kan AI användas för att individualisera utbildningen utifrån elevens inlärningsstil och nivå. Detta kan förbättra studenternas engagemang genom interaktiva läromedel som är mer individanpassade.
+     
+            </li>
+        </ul>  
+    </section>
+      </main>
+      <aside class="article-actions">
+        <div class="wrapper-action">
+          <button class="button--flat"><i class="far fa-heart"></i></button>
+          <button class="button--flat"><i class="far fa-comment"></i></button>
+          <p class="text--size-min hidden--mobile section--text">Share</p>
+          <button class="button--flat"><i class="fab fa-facebook-f"></i></button>
+          <button class="button--flat"><i class="fab fa-twitter"></i></button>
+          <button class="button--flat"><i class="fas fa-link"></i></button>
+          <p>
+        </div>
+      </aside>
+    </div>
+  </article>
+  <aside class="newsletter">
+    <h2>Prenumerera på AI University</h2>
+    <p>Få notis när vi släpper nya artiklar!</p>
+    <form class="subscribe">
+      <input type="text" class="input" />
+      <input class="button button--subscribe" type="submit" value="Prenumerera" />
+    </form>
+  </aside>
+  <footer class="text--size-min">AI University Sverige © 2023</footer>
+<body>
+ 
+</body>
+</html>
