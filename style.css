@@ -2,7 +2,7 @@
 :root {
   --font-primary: "Open Sans", sans-serif;
   --font-heading: "DM Sans", sans-serif;
-  --size-base: 1.5rem;
+  --size-base: 1.9rem;
   --size-sm: 1.4rem;
   --size-min: 1.1rem;
   --size-mid: 1.5rem;
@@ -25,8 +25,29 @@ html {
   font-family: var(--font-primary);
   color: var(--color-primary);
 }
+/*Anonucment bar*/
+.announcement {
+  display: inline-block;
+  height: 100%;
+  text-align: center;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  color: white;
+  font-family: Arial, sans;
+  margin: 8px;
+  padding: 0;
+  vertical-align: middle;
+  font-size: 0.9em;
+}
 
+.announcement a { 
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #ccc; 
+}
 
+.announcement a:hover {
+  color: rgb(124, 124, 124);
+}
  /* Navbar container */
  .navbar {
     overflow: hidden;
@@ -42,52 +63,38 @@ html {
     text-decoration: none;
   }
  
-  .dropdown {
-    float: left;
-    overflow: hidden;
-  }
- 
-  .dropdown .dropbtn {
-    font-size: 16px;  
-    border: none;
-    outline: none;
-    color: rgb(0, 0, 0);
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
+  .menuul {
+    list-style-type: none;
     margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
   }
- 
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: rgb(192, 192, 192);
+  
+  .menuli {
+    float: left;
+    border-right:1px solid #c7c7c73b;
   }
- 
-  .dropdown-content {
-    display: none;
-    position:fixed;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+  
+  .menuli:last-child {
+    border-right: none;
   }
- 
-  .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
+  
+  .menuli a {
     display: block;
-    text-align: left;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
   }
- 
-  .dropdown-content a:hover {
-    background-color: #ddd;
+  
+  .menuli a:hover:not(.active) {
+    background-image: linear-gradient(120deg, #6978ff69 0%, #6ecfff5b 100%);
   }
- 
-  .dropdown:hover .dropdown-content {
-    display: flex;
+  
+  .active {
+    background-image: linear-gradient(120deg, #6978ff 0%, #6ecfff 100%);
   }
-
 
 /*artikelsida*/
 :root{
@@ -355,7 +362,13 @@ p + p {
     color: white;
   }
 
-  
+  td a{
+    text-decoration: none;
+    color:#0491aa;
+  }
+
+
+
 .sam{
     background: #d6efff9c;
 
@@ -419,23 +432,7 @@ img {
   display: none;
 }
 /**/
-header,
-.menu-items,
-.menu--all {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.menu-items,
-.menu--all {
-  gap: 2rem;
-  list-style: none;
-  font-size: var(--size-base);
-}
-.menu--all {
-  display: none;
-}
+
 article {
   display: flex;
   flex-direction: column;
@@ -539,3 +536,4 @@ section {
     border-radius: 0 0.2rem 0.2rem 0;
   }
 }
+
